@@ -8,7 +8,7 @@ COPY package*.json ./
 COPY bun.lock* ./
 
 # Install project dependencies
-RUN npm install
+RUN npm install --legacy-peer-deps
 
 # Copy source code and assets
 COPY . .
