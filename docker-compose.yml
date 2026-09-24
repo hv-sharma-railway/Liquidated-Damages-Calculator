@@ -1,0 +1,11 @@
+services:
+  ld-calculator:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ld-calculator-app
+    ports:
+      - "2500:80"
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production

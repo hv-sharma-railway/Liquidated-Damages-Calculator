@@ -1,0 +1,6 @@
+{
+  "name": "Liquidated Damages Calculator",
+  "description": "Minimal liquidated damages calculator with week round-up logic, statutory 10% cap, step-by-step derivation breakdown, calculation history, and Android App installability.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
